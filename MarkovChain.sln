@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.27703.2035
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "MarkovChain", "MarkovChain.vcxproj", "{404B34B1-DC16-4623-87E6-75834241C2F3}"
 EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestMarkovChain", "..\TestMarkovChain\TestMarkovChain.vcxproj", "{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|x64 = Debug|x64
@@ -21,6 +23,14 @@ Global
 		{404B34B1-DC16-4623-87E6-75834241C2F3}.Release|x64.Build.0 = Release|x64
 		{404B34B1-DC16-4623-87E6-75834241C2F3}.Release|x86.ActiveCfg = Release|Win32
 		{404B34B1-DC16-4623-87E6-75834241C2F3}.Release|x86.Build.0 = Release|Win32
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Debug|x64.ActiveCfg = Debug|x64
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Debug|x64.Build.0 = Debug|x64
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Debug|x86.ActiveCfg = Debug|Win32
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Debug|x86.Build.0 = Debug|Win32
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Release|x64.ActiveCfg = Release|x64
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Release|x64.Build.0 = Release|x64
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Release|x86.ActiveCfg = Release|Win32
+		{AFA11C40-2AFF-4BBF-BC26-AC3DDED85F0F}.Release|x86.Build.0 = Release|Win32
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
