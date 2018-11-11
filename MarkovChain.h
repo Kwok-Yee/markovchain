@@ -6,12 +6,18 @@ extern "C"
 {
 	// calculate the weather state
 	DllExport int calculateWeatherState();
+
 	// return the probability
 	DllExport double getProbability();
+
 	// return the random number 
 	DllExport double getRandom();
+
 	// calculate the random number
-	DllExport double calculateRandom();
+	DllExport double calculateRandom(double min, double max);
+
 	// calculate the transition
 	DllExport int calculateTransition(int index);
+
+	void validateProbabilities(int states);
 }
