@@ -8,8 +8,10 @@ extern "C"
 	DllExport int calculateWeatherState();
 	// return the probability
 	DllExport double getProbability();
-	// return a random number 
-	DllExport double getRandom(double min, double max);
+	// return the random number 
+	DllExport double getRandom();
+	// calculate the random number
+	DllExport double calculateRandom();
 	// calculate the transition
 	DllExport int calculateTransition(int index);
 }
