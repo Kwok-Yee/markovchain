@@ -5,7 +5,7 @@
 extern "C"
 {
 	// Validate the probabilities
-	void validateProbabilities(int size, double ** p);
+	void validateProbabilities(int size, double ** p, bool debug);
 
 	// Calculate the random number
 	DllExport double calculateRandom(double min, double max);
