@@ -8,10 +8,10 @@ extern "C"
 	void validateProbabilities(int size, double ** p, bool debug);
 
 	// Calculate the random number
-	DllExport double calculateRandom(double min, double max);
+	double calculateRandom(double min, double max);
 
 	// Calculate the transition
-	DllExport int calculateTransition(int size, int ** t, double ** p, int index);
+	int calculateTransition(int size, int ** t, double ** p, int index);
 
 	// Calculate the weather state
 	DllExport int calculateWeatherState(int size, int ** trans, double ** p);
